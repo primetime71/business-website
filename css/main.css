@@ -67,7 +67,7 @@ body {
   height: 600px;
   width: 100%;
   outline: 2px solid red;
-  position: absolute;
+
   top: 0;
   left: 0;
   display: flex;
@@ -79,27 +79,18 @@ body {
   height: 30%;
   width: 50%;
   border: 2px dotted green;
-  z-index: 2;
-  position: absolute;
-  top: 30%;
-  left: 10%;
 }
 .content-1-button-wrapper {
   height: 20%;
   width: 100%;
-  z-index: 2;
-  position: absolute;
-  top: 60%;
-  left: 10%;
 }
 
 .content-1-bg-image {
-  position: absolute;
   top: 0;
   left: 0;
   display: block;
   height: 100%;
   width: 100%;
-  z-index: 1;
+
   object-fit: cover;
 }
