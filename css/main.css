@@ -67,6 +67,7 @@ body {
   align-items: center;
   gap: 10%;
   padding: 10%;
+  position: relative;
 }
 
 .section-1-content-wrapper-1 {
@@ -95,6 +96,28 @@ body {
 .section-1-cta-button {
   height: 50px;
   width: 150px;
+}
+
+.section-1-bg-img {
+  display: block;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -2;
+  object-fit: cover;
+}
+
+.section-1-bg-overlay {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
 }
 
 /*section 2 start*/
