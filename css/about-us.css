@@ -1,0 +1,126 @@
+/* section-1-start */
+
+#au-section-1 {
+  height: 70vh;
+  border-bottom: 2px solid black;
+}
+
+.au-section-1-content-wrapper {
+  height: 80%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  /* padding: 20px; */
+}
+
+.au-section-1-content-head {
+  /* position: absolute;
+  top: 25%; */
+  font-size: 3em;
+  /* padding: 5px; */
+}
+.au-section-1-content-desc {
+  width: 80%;
+  text-align: center;
+}
+
+/* section-2-start */
+
+#au-section-2 {
+  height: 60vh;
+  border-bottom: 2px solid black;
+}
+
+.au-section-2-head-wrapper {
+  height: 10%;
+  border-bottom: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.au-section-2-heading {
+  /*some typography*/
+}
+
+.au-section-2-logo-wrapper {
+  height: 90%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.au-section-2-logo {
+  display: block;
+  height: 150px;
+  width: 150px;
+  border: 2px solid black;
+}
+
+/* section-3-start */
+
+#au-section-3 {
+  height: 50vh;
+  border-bottom: 2px solid black;
+  display: flex;
+}
+
+.au-section-3-bg-img {
+  display: block;
+  height: 100%;
+  border-right: 2px solid black;
+  width: 50%;
+}
+
+/* section-4-start */
+#au-section-4 {
+  /* height: 50vh; */
+  height: auto;
+}
+.au-section-4-content-wrapper {
+  height: 50%;
+  border-bottom: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+}
+
+.au-section-4-content-head {
+  padding: 25px;
+  font-size: 2.5em;
+}
+.au-section-4-content-desc {
+  width: 80%;
+  text-align: center;
+}
+
+.au-section-4-cta {
+  height: 50%;
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: center;
+
+  gap: 25px;
+  flex-wrap: wrap;
+  padding: 10px 10px 30px 10px;
+}
+.au-section-4-email,
+.au-section-4-button {
+  display: block;
+  height: 50px;
+  font-size: 1.2em;
+}
+.au-section-4-email {
+  width: 500px;
+  padding: 5px;
+}
+
+.au-section-4-button {
+  width: 150px;
+  border-radius: 0px;
+}
