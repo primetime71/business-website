@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.section-1-div {
+  height: 90vh;
+}
+
+.img-fluid {
+  height: 100%;
+  width: 100%;
+}
