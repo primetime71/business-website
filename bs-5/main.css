@@ -17,3 +17,9 @@
   height: 100%;
   object-fit: cover;
 }
+@media (min-width: 1250px) {
+  .hp-section-1-div-2 {
+    height: 50vh;
+    width: 100%;
+  }
+}
