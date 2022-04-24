@@ -4,11 +4,12 @@
   margin: 0;
 }
 
-.section-1-div {
+.hp-section-1,
+.hp-section-1-div-1 {
   height: 90vh;
 }
 
-.img-fluid {
-  height: 100%;
+.hp-section-1-div-2 {
+  height: 50vh;
   width: 100%;
 }
