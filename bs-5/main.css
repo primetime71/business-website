@@ -10,6 +10,10 @@
 }
 
 .hp-section-1-div-2 {
-  height: 50vh;
+  height: 30vh;
   width: 100%;
+}
+.hp-section-1-div-2-img {
+  height: 100%;
+  object-fit: cover;
 }
