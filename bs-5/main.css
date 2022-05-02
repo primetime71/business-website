@@ -45,5 +45,17 @@ nav = #282a36 */
 }
 
 #hp-section-3 {
-  height: 50vh;
+height:auto;
 }
+
+
+ @media (max-width: 767.98px) { 
+#hp-section-4 .row{
+flex-wrap: wrap-reverse;
+} 
+} 
+
+.hp-cta{
+  min-height:50vh;
+}
+
