@@ -62,26 +62,26 @@
          <div class="row">
              <div class="col-lg-6">
                  <div class="container-fluid p-0"><p class="display-4">Lorem Ipsum</p></div>
-                 <form action="">
+                 <form action="https://formsubmit.co/0dd635aa0d65b8f394741cd315479158" method="POST">
                     <div class="form-floating mb-3">
-                        <input type="text" class="form-control" id="floatingName" placeholder="John Doe" >
+                        <input type="text" class="form-control" id="floatingName"  placeholder="John Doe" name="name" >
                         <label for="floatingName">Name</label>
                       </div>
                       <div class="form-floating mb-3">
-                        <input type="email" class="form-control" id="floatingEmail" placeholder="name@example.com">
+                        <input type="email" class="form-control" id="floatingEmail" placeholder="name@example.com" name="email">
                         <label for="floatingEmail">Email</label>
                       </div>
-
+                      <input type="hidden" name="_next" value="http://127.0.0.1:5500/thank-you.html">
                     <div class="form-floating mb-3">
-                        <input type="tel" class="form-control" id="floatingInput" placeholder="name@example.com" maxlength="10" minlength="7">
+                        <input type="tel" class="form-control" id="floatingInput" placeholder="name@example.com" maxlength="10" minlength="7" name="phone-number">
                         <label for="floatingInput">Phone Number</label>
                       </div>
                       <div class="form-floating mb-3">
-                        <input type="text" class="form-control" id="floatingRequirements" placeholder="Requirements">
+                        <input type="text" class="form-control" id="floatingRequirements" placeholder="Requirements" name="requirements">
                         <label for="floatingRequirements">Requirements</label>
                       </div>
                       <div class="form-floating mb-3">
-                        <textarea class="form-control" id="formControlTextarea1" placeholder="custom message" style="max-height:10em; min-height: 10em;"></textarea>
+                        <textarea class="form-control" id="formControlTextarea1" placeholder="custom message" name="messgage" style="max-height:10em; min-height: 10em;"></textarea>
                         <label for="formControlTextarea1" class="form-label">Message</label>
                         </div>
 
