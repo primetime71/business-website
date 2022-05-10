@@ -17,8 +17,12 @@ function validateForm() {
     let x = document.forms["contactForm"]["floatingName"].value;
     let y = document.forms["contactForm"]["floatingEmail"].value;
     if (x == "" || y == "") {
-      alert("Please fill the required details");
+        Swal.fire({
+            icon: 'error',
+            title: 'Oops...',
+            text: 'Please fill the required fields',       
+          });
       return false;
     }
-   
+  
   }
