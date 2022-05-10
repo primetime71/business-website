@@ -10,13 +10,8 @@ window.addEventListener("scroll",()=>{
 })
 
 
-function response(){
-    Swal.fire(
-        'Good job!',
-        'You clicked the button!',
-        'success'
-      )
-}
+
+
 
 function validateForm() {
     let x = document.forms["contactForm"]["floatingName"].value;
@@ -25,7 +20,5 @@ function validateForm() {
       alert("Please fill the required details");
       return false;
     }
-    else {
-        response();
-    }
+   
   }
