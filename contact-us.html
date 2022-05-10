@@ -13,6 +13,7 @@
   
   />
   <link rel="stylesheet" href="./src/css/main.css" />
+ 
   
 </head>
 <body>
@@ -62,16 +63,16 @@
          <div class="row">
              <div class="col-lg-6">
                  <div class="container-fluid p-0"><p class="display-4">Lorem Ipsum</p></div>
-                 <form action="https://formsubmit.co/0dd635aa0d65b8f394741cd315479158" method="POST">
+                 <form name="contactForm" action="https://formsubmit.co/0dd635aa0d65b8f394741cd315479158" method="POST">
                     <div class="form-floating mb-3">
-                        <input type="text" class="form-control" id="floatingName"  placeholder="John Doe" name="name" >
+                        <input type="text" class="form-control" id="floatingName"  placeholder="John Doe" name="name" required >
                         <label for="floatingName">Name</label>
                       </div>
                       <div class="form-floating mb-3">
-                        <input type="email" class="form-control" id="floatingEmail" placeholder="name@example.com" name="email">
+                        <input type="email" class="form-control" id="floatingEmail" placeholder="some email" name="email" required>
                         <label for="floatingEmail">Email</label>
                       </div>
-                      <input type="hidden" name="_next" value="http://127.0.0.1:5500/thank-you.html">
+                    
                     <div class="form-floating mb-3">
                         <input type="tel" class="form-control" id="floatingInput" placeholder="name@example.com" maxlength="10" minlength="7" name="phone-number">
                         <label for="floatingInput">Phone Number</label>
@@ -87,8 +88,11 @@
 
                         <div class="container-fluid p-0 mt-4 d-flex justify-content-end align-items-center">
                             <!-- <input class="btn w-25 btn-success" type="submit" value="Submit"> -->
-                            <button type="submit" class="btn btn-success w-25 " value="submit">Submit</button>
+                            <button type="submit" class="btn btn-success w-25 "  value="submit" onclick="validateForm()">Submit</button>
                         </div>
+                        <input type="hidden" name="_next" value="http://127.0.0.1:5500/contact-us.html">
+                      <input type="hidden" name="_captcha" value="false">
+                      <input type="hidden" name="_template" value="table">
 
 
                  </form>
@@ -243,6 +247,7 @@
 </footer>
 <!-- Footer -->
 <script src="./src/js/contact-us.js"></script>
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
 <script src="https://kit.fontawesome.com/f88394f464.js" crossorigin="anonymous"></script>
     <script

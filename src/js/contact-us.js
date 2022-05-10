@@ -8,3 +8,24 @@ window.addEventListener("scroll",()=>{
         topBtn.classList.remove("active");
     }
 })
+
+
+function response(){
+    Swal.fire(
+        'Good job!',
+        'You clicked the button!',
+        'success'
+      )
+}
+
+function validateForm() {
+    let x = document.forms["contactForm"]["floatingName"].value;
+    let y = document.forms["contactForm"]["floatingEmail"].value;
+    if (x == "" || y == "") {
+      alert("Please fill the required details");
+      return false;
+    }
+    else {
+        response();
+    }
+  }
