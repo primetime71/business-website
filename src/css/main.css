@@ -8,6 +8,12 @@ nav = #282a36 */
   margin: 0;
 }
 
+.navbar-toggler:focus{
+  box-shadow: none;
+}
+.fa-bars{
+  font-size: 1.1em;
+}
 
 .hp-section-1 {
   height: auto;
