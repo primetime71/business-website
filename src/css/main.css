@@ -8,12 +8,68 @@ nav = #282a36 */
   margin: 0;
 }
 
+body{
+  /* font-family: 'Poppins', sans-serif; */
+
+
+}
+.navbar{
+
+  border: 1px solid white;
+  border: none;
+  border-radius: 5px;
+  border-radius: 0px;
+  font-family: 'Playfair Display', serif;
+ 
+  /* box-shadow: 1px 1px 1px #35475F; */
+}
+
+h1,h2,h3,.card-title{
+  font-family: 'Playfair Display', serif;
+} 
+
+.card-title{
+  font-weight:bold;
+}
+
+p.card-text{
+  font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+
+ 
+
+
+
+
+.card{
+  border: none;
+  border: 1px solid #95A78D;
+  /* box-shadow: 1px 1px 10px #9A8F97; */
+  border-radius: 0px;
+}
+
+
+
+
+
+/* .display-1,.display-2,.display-3,h3,h6,.card-title,span{
+  font-family: 'Molin', sans-serif;
+                                                                                     
+} */
+
+
 .navbar-toggler:focus{
   box-shadow: none;
 }
 .fa-bars{
   font-size: 1.1em;
 }
+
+
 
 .hp-section-1 {
   height: auto;
