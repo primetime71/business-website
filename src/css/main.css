@@ -17,6 +17,7 @@ body{
 
 /* navbar */
 .navbar{
+  background-color: #EAEAEA;
   border: 1px solid white;
   border: none;
   border-radius: 5px;
@@ -27,7 +28,7 @@ body{
 }
 
 .nav-link,.navbar-brand{
-  color:#EAEAEA;
+  color:#050404;
 }
 .nav-link:hover,.navbar-brand:hover{
   color:#FC7A57;
@@ -42,15 +43,15 @@ body{
   border-radius: 0;
 }
 .btn-primary{
-  background-color: #BAFF29;
-  color:#050404;
-  border:1px solid #EAEAEA;
+  background-color: #050404;
+  color:#EAEAEA;
+  border:3px solid #5E6973;
 }
 
 .btn-primary:hover{
   background-color: #FC7A57;
   color:#EAEAEA;
-  border:1px solid #EAEAEA;
+  border:3px solid #5E6973;
 }
 
 
@@ -76,6 +77,8 @@ p.card-text{
 #hp-section-1{
   border-bottom: 1px solid white;
   height:100vh;
+
+
 }
 /* section-1 */
 /* section-2 */
@@ -85,54 +88,6 @@ height: auto;
   min-height:100vh;
   border-bottom: 1px solid white;
 }
- 
-
-
-
-
-.card{
-  border: none;
-  border: 1px solid #95A78D;
-  /* box-shadow: 1px 1px 10px #9A8F97; */
-  border-radius: 0px;
-}
-
-
-
-
-
-/* .display-1,.display-2,.display-3,h3,h6,.card-title,span{
-  font-family: 'Molin', sans-serif;
-                                                                                     
-} */
-
-
-.navbar-toggler:focus{
-  box-shadow: none;
-}
-.fa-bars{
-  font-size: 1.1em;
-}
-
-
-
-.hp-section-1 {
-  height: auto;
-}
-.hp-section-1-div-1 {
-  height: 90vh;
-}
-
-/* .hp-section-1-div-2 {
-  height: 50vh;
-  width: 100%;
-}
-.hp-section-1-div-2-img {
-  height: 100%;
-  object-fit: cover;
-} */
-
-/* section 2 start */
 
 .hp-section-2-content-wrapper {
   height: auto;
@@ -152,9 +107,86 @@ height: auto;
   width: 125px;
 }
 
-#hp-section-3 {
-height:auto;
+/* section-3 */
+ 
+#hp-section-3{
+  background-color: #EAEAEA;
+  color:#050404;
+  min-height:100vh;
+  height:auto;
 }
+
+.card{
+
+  border: 1px solid #95A78D;
+  box-shadow: 1px 1px 10px #9A8F97;
+  border-radius: 0px;
+}
+
+
+/* section-4 */
+
+#hp-section-4{
+  min-height:100vh; 
+  height:auto;
+}
+
+.hp-img{
+  max-height: 500px;
+}
+
+/* section-5 */
+
+#hp-section-5{
+  background-color: #EAEAEA;
+  color: #050404;
+
+}
+
+
+/* footer */
+footer{
+  background-color: #2E3338;
+
+}
+
+
+/* .display-1,.display-2,.display-3,h3,h6,.card-title,span{
+  font-family: 'Molin', sans-serif;
+                                                                                     
+} */
+
+
+.navbar-toggler:focus{
+  box-shadow: none;
+}
+.fa-bars{
+  font-size: 1.2em;
+  color: #050404;
+}
+
+
+
+/* .hp-section-1 {
+  height: auto;
+}
+.hp-section-1-div-1 {
+  height: 90vh;
+} */
+
+/* .hp-section-1-div-2 {
+  height: 50vh;
+  width: 100%;
+}
+.hp-section-1-div-2-img {
+  height: 100%;
+  object-fit: cover;
+} */
+
+/* section 2 start */
+
+
+
 
 
  @media (max-width: 767.98px) { 
