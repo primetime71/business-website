@@ -1,4 +1,12 @@
-
+:root{
+--bg-color:#202C39;
+--text-light:#EAEAEA;
+--text-dark:#050404;
+--primary-bg-1:#B8B08D;
+--primary-bg-2:#F2D492;
+--primary-bg-3:#FF674D;
+--primary-bg-4:#283845;
+}
 
 * {
   box-sizing: border-box;
@@ -8,15 +16,15 @@
 
 body{
   /* font-family: 'Poppins', sans-serif; */
-  background-color: #050404;
-  color:#EAEAEA;
+  background-color: var(--bg-color);
+  color:var(--text-light);
   
 
 }
 
 /* navbar */
 .navbar{
-  background-color: #EAEAEA;
+  background-color: var(--primary-bg-1);
   border: 1px solid white;
   border: none;
   border-radius: 5px;
@@ -27,10 +35,10 @@ body{
 }
 
 .nav-link,.navbar-brand{
-  color:#050404;
+  color:var(--text-dark);
 }
 .nav-link:hover,.navbar-brand:hover{
-  color:#FC7A57;
+  color:var(--primary-bg-3);
 }
 
 /* navbar */
@@ -42,15 +50,15 @@ body{
   border-radius: 0;
 }
 .btn-primary{
-  background-color: #050404;
-  color:#EAEAEA;
-  border:3px solid #5E6973;
+  background-color: var(--text-light);
+  color:var(--text-dark);
+  border:3px solid var(--text-dark);
 }
 
 .btn-primary:hover{
-  background-color: #FC7A57;
+  background-color: var(--primary-bg-3);
   color:#EAEAEA;
-  border:3px solid #5E6973;
+  border:3px solid var(--text-dark);
 }
 
 
@@ -109,16 +117,17 @@ height: auto;
 /* section-3 */
  
 #hp-section-3{
-  background-color: #EAEAEA;
-  color:#050404;
+  background-color: var(--primary-bg-1);
+  color:var(--text-dark);
   min-height:100vh;
   height:auto;
 }
 
 .card{
-
+background-color: var(--primary-bg-2);
+color:var(--text-dark);
   border: 1px solid #95A78D;
-  box-shadow: 1px 1px 10px #9A8F97;
+  box-shadow: 1px 1px 10px var(--bg-color);
   border-radius: 0px;
 }
 
@@ -137,16 +146,29 @@ height: auto;
 /* section-5 */
 
 #hp-section-5{
-  background-color: #EAEAEA;
+  background-color:var(--primary-bg-1);
   color: #050404;
 
 }
 
+#hp-section-5 .card{
+  background-color: var(--primary-bg-2);
+}
 
 /* footer */
 footer{
-  background-color: #2E3338;
+  background-color:var(--primary-bg-4);
 
+}
+
+.footer-2{
+  background-color: var(--primary-bg-1);
+  color: var(--text-dark);
+}
+
+.footer-2 a {
+  color: var(--text-dark);
+  text-decoration: none;
 }
 
 
