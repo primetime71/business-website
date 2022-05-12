@@ -32,3 +32,7 @@ object-fit: cover;
     pointer-events: auto;
     bottom:32px;
 }
+
+.nav-link-gal{
+    color: #eaeaea;
+}
