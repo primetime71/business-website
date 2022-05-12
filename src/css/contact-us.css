@@ -1,3 +1,7 @@
 .swal-height{
     height: 600px;
 }
+
+label{
+    color: #050404;
+}
