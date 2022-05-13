@@ -1,5 +1,7 @@
 :root{
---bg-color:#202C39;
+/* --bg-color:#202C39;
+--bg-color:#E1E0DE; */
+--bg-color:#F3F4F5;
 --text-light:#EAEAEA;
 --text-dark:#050404;
 --primary-bg-1:#B8B08D;
@@ -17,16 +19,16 @@
 body{
   /* font-family: 'Poppins', sans-serif; */
   background-color: var(--bg-color);
-  color:var(--text-light);
+  color:var(--text-dark);
   
 
 }
 
 /* navbar */
 .navbar{
-  background-color: var(--primary-bg-1);
-  border: 1px solid white;
-  border: none;
+  background-color: var(--bg-color);
+  border-bottom: 1px solid var(--text-dark);
+  
   border-radius: 5px;
   border-radius: 0px;
   font-family: 'Playfair Display', serif;
@@ -52,13 +54,14 @@ body{
 .btn-primary{
   background-color: var(--text-light);
   color:var(--text-dark);
-  border:3px solid var(--text-dark);
+  border:1px solid var(--text-dark);
+  
 }
 
 .btn-primary:hover{
   background-color: var(--primary-bg-3);
   color:#EAEAEA;
-  border:3px solid var(--text-dark);
+  border:1px solid var(--text-dark);
 }
 
 
@@ -82,8 +85,8 @@ p.card-text{
 /* section-1 */
 
 #hp-section-1{
-  border-bottom: 1px solid white;
-  height:100vh;
+  
+  height:90vh;
 
 
 }
@@ -117,17 +120,18 @@ height: auto;
 /* section-3 */
  
 #hp-section-3{
-  background-color: var(--primary-bg-1);
+  /* background-color: var(); */
   color:var(--text-dark);
-  min-height:100vh;
+  /* min-height:100vh; */
   height:auto;
 }
 
 .card{
-background-color: var(--primary-bg-2);
+/* background-color: var(--primary-bg-2); */
 color:var(--text-dark);
+background-color: #eaeaea;
   border: 1px solid #95A78D;
-  box-shadow: 1px 1px 10px var(--bg-color);
+  /* box-shadow: 5px 5px var(--text-dark); */
   border-radius: 0px;
 }
 
@@ -145,29 +149,31 @@ color:var(--text-dark);
 
 /* section-5 */
 
-#hp-section-5{
+/* #hp-section-5{
   background-color:var(--primary-bg-1);
   color: #050404;
 
-}
+} */
 
-#hp-section-5 .card{
-  background-color: var(--primary-bg-2);
-}
+/* #hp-section-5 .card{
+  background-color: var(--pr);
+} */
 
 /* footer */
 footer{
-  background-color:var(--primary-bg-4);
+  background-color:var(--text-dark);
+  color: var(--text-light);
 
 }
 
 .footer-2{
-  background-color: var(--primary-bg-1);
-  color: var(--text-dark);
+  background-color: var(--text-dark);
+  
+  color: var(--text-light);
 }
 
 .footer-2 a {
-  color: var(--text-dark);
+  color: var(--text-light);
   text-decoration: none;
 }
 

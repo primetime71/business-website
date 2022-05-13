@@ -1,4 +1,13 @@
+/* section-1 */
 
+.service-link {
+color:var(--text-dark);
+}
+
+.service-link:hover{
+    color:var(--primary-bg-3);
+}
+/* section-1 */
 
 /* card styles */
 .card-body{
@@ -11,14 +20,18 @@
 
 /* services */
 #sp-service-1,#sp-service-3{
-    color:#050404;
-    background-color: #EAEAEA; 
+    /* color:var(--text-dark);
+    background-color: var(--primary-bg-1);  */
+    min-height: 100vh;
 }
-/* services */
 
-#hp-section-5{
-    background-color: #050404;
-    color: #EAEAEA;
+#sp-service-2{
+    min-height: 101vh;
+}
+/* services --end */
+
+#sp-section-5{
+   background-color: var(--primary-bg);
 }
 
 /* scroll-to-top-button */

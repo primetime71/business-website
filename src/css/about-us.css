@@ -1,7 +1,9 @@
-.au-2{
+/* .au-2{
     background-color: var(--primary-bg-1);
     color: #050404;
-}
+    /* min-height: 100vh; 
+} 
+*/
 
 .au-brands{
     min-height: 100%;
