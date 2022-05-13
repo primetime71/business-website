@@ -1,5 +1,5 @@
 .au-2{
-    background-color: #EAEAEA;
+    background-color: var(--primary-bg-1);
     color: #050404;
 }
 
@@ -10,7 +10,3 @@
 }
 
 
-#hp-section-5{
-    background-color: #050404;
-    color: #EAEAEA;
-}
