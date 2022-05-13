@@ -261,3 +261,10 @@ flex-wrap: wrap-reverse;
   pointer-events: auto;
   bottom:32px;
 }
+
+.hr-style{
+  width: 10%; 
+  margin: 0 auto;
+  height:5px !important;
+    border-radius: 50px;
+}
