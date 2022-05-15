@@ -37,12 +37,16 @@
     word-spacing: 1px;
     line-height: 2em;
     width:150px;
-    }
+    transition: all 0.3s ease-out; 
+  }
 
   .btn-primary{
     background-color: var(--text-light);
     color:var(--text-dark);
     border:1px solid var(--text-dark);
+   
+    transition: all 0.5s ease-out;
+    
    
     
     
@@ -57,13 +61,16 @@
     background-color: var(--text-dark);
     color:var(--text-light);
     border:1px solid var(--text-dark);
+
   
   }
   .btn-primary:hover,.btn-secondary:hover{
     background: linear-gradient(90deg, rgba(234, 204, 248, 0.45) 0%, rgba(102, 84, 241, 0.43) 100%);
-    
     color:var(--text-dark);
+    /* background-color: orange; */
     border:1px solid var(--text-dark);
+
+
     
 
   }
@@ -184,65 +191,14 @@ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 /* cards end */
 
 
-  /* section-2 */
-  
-  #hp-section-2{
-  height: auto;
-    min-height:100vh;
-    border-bottom: 1px solid white;
-  }
-  
-  .hp-section-2-content-wrapper {
-    height: auto;
-  }
-  
-  .hp-section-2-img {
-    display: block;
-    height: 80%;
-  }
-  .hp-section-2-content-2 p {
-    width: 90%;
-  }
-  .section-2-btn-wrapper {
-    width: 80%;
-  }
-  .section-2-btn {
-    width: 125px;
-  }
-  
   /* section-3 */
-   
-  /* #hp-section-3{
-   background-color: var(); 
-    color:var(--text-dark);
-    min-height:100vh; 
-    height:auto;
-  } */
-  
-  
-  
-  
-  /* section-4 */
-  
-  #hp-section-4{
-    min-height:100vh; 
-    height:auto;
+
+  #home-page-3{
+    border-bottom: 1px solid var(--text-dark);
   }
   
-  .hp-img{
-    max-height: 500px;
-  }
-  
-  /* section-5 */
-  
-  /* #hp-section-5{
-    background-color:var(--primary-bg-1);
-    color: #050404;
-  } */
-  
-  /* #hp-section-5 .card{
-    background-color: var(--pr);
-  } */
+ 
+
   
   /* footer */
   footer{
