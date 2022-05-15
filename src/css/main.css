@@ -20,6 +20,7 @@
     /* font-family: 'Poppins', sans-serif; */
     background-color: var(--bg-color);
     color:var(--text-dark);
+    overflow-x: hidden;
     
   
   }
@@ -92,10 +93,38 @@
   
   /* sections */
   
+
 #home-page-1{
-  height: auto;
+  height:100vh;
 }
+
+.img-container{
+  max-height: 550px;
+  height: 90%;
+
+}
+.hp-img-1{
+
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+@media (max-width:1200px){
   
+  .hp-img-1{
+  height:100%;
+  width: 100%;
+  object-fit: cover;
+  
+  
+
+}
+ 
+} 
+
+
+
+
   /* section-2 */
   
   #hp-section-2{
