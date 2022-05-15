@@ -37,11 +37,23 @@
     border:1px solid var(--text-dark);
     
   }
-  
-  .btn-primary:hover{
+  /* .btn-primary:hover{
     background-color: var(--primary-bg-3);
     color:#EAEAEA;
     border:1px solid var(--text-dark);
+  } */
+
+  .btn-secondary{
+    background-color: var(--text-dark);
+    color:var(--text-light);
+    border:1px solid var(--text-dark);
+  }
+  .btn-primary:hover,.btn-secondary:hover{
+    background: linear-gradient(90deg, rgba(234, 204, 248, 0.45) 0%, rgba(102, 84, 241, 0.43) 100%);
+    color:var(--text-dark);
+    border:1px solid var(--text-dark);
+    
+
   }
   
   
