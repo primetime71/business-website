@@ -30,11 +30,21 @@
   
   .btn{
     border-radius: 0;
-  }
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    line-height: 2em;
+    width:150px;
+    }
+
   .btn-primary{
     background-color: var(--text-light);
     color:var(--text-dark);
     border:1px solid var(--text-dark);
+   
+    
     
   }
   /* .btn-primary:hover{
@@ -47,6 +57,7 @@
     background-color: var(--text-dark);
     color:var(--text-light);
     border:1px solid var(--text-dark);
+  
   }
   .btn-primary:hover,.btn-secondary:hover{
     background: linear-gradient(90deg, rgba(234, 204, 248, 0.45) 0%, rgba(102, 84, 241, 0.43) 100%);
