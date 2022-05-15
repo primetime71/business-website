@@ -104,14 +104,19 @@
 
 }
 .hp-img-1{
+/* object-fit: cover; */
+aspect-ratio: auto;
 
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 
 @media (max-width:1200px){
   
-  .hp-img-1{
+  #hp-image-none{
+    display: none;
+  }
+  /* .hp-img-1{
   height:100%;
   width: 100%;
   object-fit: cover;
@@ -119,7 +124,7 @@
   
 
 }
- 
+  */
 } 
 
 
