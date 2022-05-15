@@ -61,6 +61,7 @@
   }
   .btn-primary:hover,.btn-secondary:hover{
     background: linear-gradient(90deg, rgba(234, 204, 248, 0.45) 0%, rgba(102, 84, 241, 0.43) 100%);
+    
     color:var(--text-dark);
     border:1px solid var(--text-dark);
     
@@ -165,7 +166,7 @@ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 .card{
   color:var(--text-dark);
   background-color: var(--bg-color);
-  border-left:2px solid var(--text-dark);
+  border-left:1px solid var(--text-dark);
   border-top: none;
   border-right: none;
   border-bottom: none;
