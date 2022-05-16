@@ -81,7 +81,7 @@
   /* navbar */
   .navbar{
     background-color: var(--bg-color);
-    border-bottom: 1px solid var(--text-dark);
+    /* border-bottom: 1px solid var(--text-dark); */
     
     border-radius: 5px;
     border-radius: 0px;
@@ -92,9 +92,14 @@
   
   .nav-link,.navbar-brand{
     color:var(--text-dark);
+    transition: all 0.3s ease-out; 
   }
   .nav-link:hover,.navbar-brand:hover{
     color:var(--primary-bg-3);
+  }
+  .nav-link:focus,.navbar-brand:focus{
+    color:var(--primary-bg-3);
+    
   }
   
   .navbar-toggler:focus{
@@ -104,7 +109,12 @@
     font-size: 1.2em;
     color: #050404;
   }
-  
+  .active{
+    border-bottom: 1px solid var(--text-dark);
+   
+    
+  }
+
   /* navbar */
   
 
