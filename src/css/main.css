@@ -109,6 +109,12 @@
     border-bottom: 2px solid var(--text-dark)
   
   }
+
+  @media (max-width: 767.98px){
+    .active:before {
+     width: 100%;
+    }
+  }
   .navbar-toggler:focus{
     box-shadow: none;
   }
