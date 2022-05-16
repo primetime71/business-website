@@ -82,9 +82,6 @@
   .navbar{
     background-color: var(--bg-color);
     /* border-bottom: 1px solid var(--text-dark); */
-    
-    border-radius: 5px;
-    border-radius: 0px;
     font-family: 'Playfair Display', serif;
    
     /* box-shadow: 1px 1px 1px #35475F; */
@@ -93,6 +90,7 @@
   .nav-link,.navbar-brand{
     color:var(--text-dark);
     transition: all 0.3s ease-out; 
+    position: relative;
   }
   .nav-link:hover,.navbar-brand:hover{
     color:var(--primary-bg-3);
@@ -101,7 +99,16 @@
     color:var(--primary-bg-3);
     
   }
+  .active:before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+    width: 50%;
+    border-bottom: 2px solid var(--text-dark)
   
+  }
   .navbar-toggler:focus{
     box-shadow: none;
   }
@@ -109,11 +116,7 @@
     font-size: 1.2em;
     color: #050404;
   }
-  .active{
-    border-bottom: 1px solid var(--text-dark);
-   
-    
-  }
+ 
 
   /* navbar */
   
