@@ -67,7 +67,7 @@
   .btn-primary:hover,.btn-secondary:hover{
     background: linear-gradient(90deg, rgba(234, 204, 248, 0.45) 0%, rgba(102, 84, 241, 0.43) 100%);
     color:var(--text-dark);
-    /* background-color: orange; */
+    /* background-color: #98ff98; */
     border:1px solid var(--text-dark);
 
 
