@@ -45,12 +45,7 @@ object-fit: cover;
     bottom:32px;
 }
 
-.item-1{
- border:5px solid red;
-}
-.item-2{
-    border: 5px solid green;
-}
+
 /* sections */
 
 #gallery-2{
@@ -58,6 +53,14 @@ object-fit: cover;
     border-bottom:1px solid var(--text-dark);
     background: linear-gradient(90deg, rgba(234, 204, 248, 0.45) 0%, rgba(102, 84, 241, 0.43) 100%);}
 
+#gallery-2 a{
+
+width:90px;
+height:100%;
+text-align: center;
+vertical-align: middle;
+
+}
 
 #gallery-3 .img-fluid{
 border-radius: 6px;
