@@ -45,16 +45,31 @@ object-fit: cover;
     bottom:32px;
 }
 
-
+.item-1{
+ border:5px solid red;
+}
+.item-2{
+    border: 5px solid green;
+}
 /* sections */
 
 #gallery-2{
     border-top:1px solid var(--text-dark);
     border-bottom:1px solid var(--text-dark);
-
-}
+    background: linear-gradient(90deg, rgba(234, 204, 248, 0.45) 0%, rgba(102, 84, 241, 0.43) 100%);}
 
 
 #gallery-3 .img-fluid{
 border-radius: 6px;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#gallery-3 .img-fluid:hover{
+    scale:1.05;
+}
+
+@media (max-width:576px) {
+    #gallery-3 .img-fluid:hover{
+        scale:none;
+    }
 }
