@@ -45,6 +45,9 @@ object-fit: cover;
     bottom:32px;
 }
 
+.expand{
+    height:100%;
+}
 
 /* sections */
 

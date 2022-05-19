@@ -9,7 +9,9 @@ window.addEventListener("scroll", () => {
 });
 
 function resetStyle() {
-  let imgArr = document.querySelectorAll(".item-1,.item-2,.item-3");
+  let imgArr = document.querySelectorAll(
+    ".item-1,.item-2,.item-3,.item-4,.item-5"
+  );
   for (let i = 0; i < imgArr.length; i++) {
     imgArr[i].style.display = "block";
   }
@@ -17,7 +19,7 @@ function resetStyle() {
 
 function showItem1() {
   resetStyle();
-  let imgArr = document.querySelectorAll(".item-2,.item-3");
+  let imgArr = document.querySelectorAll(".item-2,.item-3,.item-4,.item-5");
   for (let i = 0; i < imgArr.length; i++) {
     imgArr[i].style.display = "none";
   }
@@ -25,7 +27,7 @@ function showItem1() {
 
 function showItem2() {
   resetStyle();
-  let imgArr = document.querySelectorAll(".item-1,.item-3");
+  let imgArr = document.querySelectorAll(".item-1,.item-3,.item-4,.item-5");
   for (let i = 0; i < imgArr.length; i++) {
     imgArr[i].style.display = "none";
   }
@@ -33,7 +35,23 @@ function showItem2() {
 
 function showItem3() {
   resetStyle();
-  let imgArr = document.querySelectorAll(".item-1,.item-2");
+  let imgArr = document.querySelectorAll(".item-1,.item-2,.item-4,.item-5");
+  for (let i = 0; i < imgArr.length; i++) {
+    imgArr[i].style.display = "none";
+  }
+}
+
+function showItem4() {
+  resetStyle();
+  let imgArr = document.querySelectorAll(".item-1,.item-2,.item-3,.item-5");
+  for (let i = 0; i < imgArr.length; i++) {
+    imgArr[i].style.display = "none";
+  }
+}
+
+function showItem5() {
+  resetStyle();
+  let imgArr = document.querySelectorAll(".item-1,.item-2,.item-3,.item-4");
   for (let i = 0; i < imgArr.length; i++) {
     imgArr[i].style.display = "none";
   }

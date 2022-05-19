@@ -106,7 +106,7 @@
     transform: translateX(-50%);
     bottom: 0;
     width: 50%;
-    border-bottom: 2px solid var(--text-dark)
+    /* border-bottom: 2px solid var(--text-dark); */
   
   }
 
