@@ -27,15 +27,14 @@ color:var(--text-dark);
     background: linear-gradient(90deg, rgba(234, 204, 248, 0.45) 0%, rgba(102, 84, 241, 0.43) 100%);
 
 }
-#sp-service-1,#sp-service-3{
+#sp-service-1,#sp-service-2,#sp-service-3{
     /* color:var(--text-dark);
     background-color: var(--primary-bg-1);  */
     min-height: 100vh;
+    border-bottom: 1px solid var(--text-dark);
 }
 
-#sp-service-2{
-    min-height: 101vh;
-}
+
 /* services --end */
 
 #sp-section-5{
