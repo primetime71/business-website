@@ -1,6 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Playfair+Display:ital@0;1&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Playfair+Display:ital@0;1&family=Poppins:wght@300;600&display=swap');
 
 
 :root{
@@ -90,15 +89,19 @@
     background-color: var(--bg-color);
     /* border-bottom: 1px solid var(--text-dark); */
     font-family: 'Montserrat', sans-serif;
-    letter-spacing: 2px;
-
-   min-height: 64px;
+    
+    letter-spacing: 0.25em;
+    font-size: 0.8em;
+    font-weight:600;
+    min-height: 64px;
+  
    
     /* box-shadow: 1px 1px 1px #35475F; */
   }
   
   .nav-link,.navbar-brand{
     color:var(--text-dark);
+    color: #000000;
     transition: all 0.3s ease-out; 
     position: relative;
   }
