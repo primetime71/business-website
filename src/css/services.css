@@ -22,6 +22,11 @@ color:var(--text-dark);
 
 
 /* services */
+
+.sp-items-container{
+    background: linear-gradient(90deg, rgba(234, 204, 248, 0.45) 0%, rgba(102, 84, 241, 0.43) 100%);
+
+}
 #sp-service-1,#sp-service-3{
     /* color:var(--text-dark);
     background-color: var(--primary-bg-1);  */
