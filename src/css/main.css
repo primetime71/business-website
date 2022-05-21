@@ -341,11 +341,8 @@ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 
   }
  
-  .hr-style{
-    width: 10%; 
-    margin: 0 auto;
-    height:5px !important;
-      border-radius: 50px;
-  }
-  
+ p{
+  font-family: 'Montserrat', sans-serif;
+ }
+
   
