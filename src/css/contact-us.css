@@ -1,3 +1,17 @@
+:root{
+    /* --bg-color:#202C39;
+    --bg-color:#E1E0DE; */
+    --bg-color:#F3F4F5;
+    --text-light:#EAEAEA;
+    --dark:#050404;
+    --primary-bg-1:#B8B08D;
+    --primary-bg-2:#F2D492;
+    --primary-bg-3:#FF674D;
+    --primary-bg-4:#283845;
+    --text-dark:#2C302E;
+    
+}  
+
 .swal-height{
     height: 600px;
 }
@@ -15,4 +29,10 @@ label{
     background-color: #202C39;
     color:azure;
 } */
+
+.contact-icons{
+    height:2em;
+    width: 2em;
+    display: inline-block;
+}
 
