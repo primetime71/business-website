@@ -7,7 +7,7 @@
   --bg-color:#E1E0DE; */
   --bg-color:#F3F4F5;
   --text-light:#EAEAEA;
-  --text-dark:#050404;
+  --dark:#050404;
   --primary-bg-1:#B8B08D;
   --primary-bg-2:#F2D492;
   --primary-bg-3:#FF674D;
@@ -110,8 +110,8 @@
   .nav-link,.navbar-brand{
     color:var(--text-dark);
     color: #000000;
-    transition: all 0.3s ease-out; 
-    position: relative;
+    transition: all .5s ease-out; 
+    
   }
   .nav-link:hover,.navbar-brand:hover{
     color:var(--primary-bg-3);
@@ -257,13 +257,13 @@ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 
   /* footer */
   footer{
-    background-color:var(--text-dark);
+    background-color:var(--dark);
     color: var(--text-light);
   
   }
   
   .footer-2{
-    background-color: var(--text-dark);
+    background-color: var(--dark);
     
     color: var(--text-light);
   }
@@ -352,7 +352,7 @@ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     bottom:32px;
    
   }
-  .display-1,.display-2,.display-3,.display-4{
+  .display-1,.display-2,.display-3,.display-4,.display-5{
     font-family: 'Playfair Display', serif;
 
   }
