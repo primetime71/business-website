@@ -36,3 +36,6 @@ label{
     display: inline-block;
 }
 
+.socials-icon:hover{
+    scale:1em;
+}
