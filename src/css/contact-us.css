@@ -30,12 +30,5 @@ label{
     color:azure;
 } */
 
-.contact-icons{
-    height:2em;
-    width: 2em;
-    display: inline-block;
-}
 
-.socials-icon:hover{
-    scale:1em;
-}
+

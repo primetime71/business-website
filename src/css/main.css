@@ -361,6 +361,18 @@ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     transition: ease-in .2s;
    color: rgba(102, 84, 241);
 }
+.contact-icons{
+  height:2em;
+  width: 2em;
+  display: inline-block;
+}
+.footer-contact-icons{
+  height:1.8em;
+  width: 1.8em;
+  margin-right: 5px;
+  display: inline-block;
+}
+
   .display-1,.display-2,.display-3,.display-4,.display-5{
     font-family: 'Playfair Display', serif;
 
