@@ -111,6 +111,7 @@
     color:var(--text-dark);
     color: #000000;
     transition: all .5s ease-out; 
+    font-size: .8em;
     
   }
   .nav-link:hover,.navbar-brand:hover{
@@ -382,4 +383,8 @@ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   font-family: 'Montserrat', sans-serif;
  }
 
-  
+ 
+
+ 
+
+ 
