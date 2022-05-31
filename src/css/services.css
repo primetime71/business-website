@@ -1,15 +1,29 @@
 /* section-1 */
+
 .sp-link{
     border-top: 1px solid var(--text-dark);
     border-bottom: 1px solid var(--text-dark);
 }
-.service-link {
-color:var(--text-dark);
-}
+.sp-items-container{
+    background: linear-gradient(90deg, rgba(234, 204, 248, 0.45) 0%, rgba(102, 84, 241, 0.43) 100%);
 
-.service-link:hover{
-    color:var(--primary-bg-3);
 }
+.sp-items-container .nav-link{
+
+    width:fit-content;
+    height:100%;
+    text-align: center;
+    vertical-align: middle;
+    letter-spacing: 1.25px;
+    font-weight: 400;
+    }
+/* .service-link {
+color:var(--text-dark);
+} */
+
+/* .service-link:hover{
+    color:var(--primary-bg-3); */
+
 /* section-1 */
 
 /* card styles */
@@ -23,10 +37,9 @@ color:var(--text-dark);
 
 /* services */
 
-.sp-items-container{
-    background: linear-gradient(90deg, rgba(234, 204, 248, 0.45) 0%, rgba(102, 84, 241, 0.43) 100%);
 
-}
+
+
 #sp-service-1,#sp-service-2,#sp-service-3{
     /* color:var(--text-dark);
     background-color: var(--primary-bg-1);  */

@@ -58,13 +58,14 @@ object-fit: cover;
     background: linear-gradient(90deg, rgba(234, 204, 248, 0.45) 0%, rgba(102, 84, 241, 0.43) 100%);
 }
 
-#gallery-2 a{
+#gallery-2 .nav-link{
 
 width:fit-content;
 height:100%;
 text-align: center;
 vertical-align: middle;
-
+letter-spacing: 1.25px;
+font-weight: 400;
 }
 
 #gallery-3 .img-fluid{
