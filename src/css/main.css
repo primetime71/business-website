@@ -102,9 +102,9 @@
     font-size: 0.8em;
     font-weight:600;
     min-height: 64px;
-  
-   
-    /* box-shadow: 1px 1px 1px #35475F; */
+    
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
   }
   
   .nav-link,.navbar-brand{
@@ -169,6 +169,8 @@
 #home-page-1{
   height:100vh;
   border-bottom: 1px solid var(--text-dark);
+  /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
+
 }
 
 .img-container{
@@ -209,6 +211,9 @@ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   min-height: 100vh;
   height: auto;
   border-bottom: 1px solid var(--text-dark);
+  /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
+ 
+
 }
 
 /* section-2 end */
@@ -243,6 +248,7 @@ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     min-height: 100vh;
     height: auto;
     border-bottom: 1px solid var(--text-dark);
+    /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
   }
   
  
@@ -251,7 +257,7 @@ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   min-height: 100vh;
   height:auto;
   border-bottom: 1px solid var(--text-dark);
-
+  /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
 }
   
 
