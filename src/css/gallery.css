@@ -55,7 +55,8 @@ object-fit: cover;
 #gallery-2{
     border-top:1px solid var(--text-dark);
     border-bottom:1px solid var(--text-dark);
-    background: linear-gradient(90deg, rgba(234, 204, 248, 0.45) 0%, rgba(102, 84, 241, 0.43) 100%);
+    /* background: linear-gradient(90deg, rgba(234, 204, 248, 0.45) 0%, rgba(102, 84, 241, 0.43) 100%); */
+    background-color: #FF934F;
 }
 
 #gallery-2 .nav-link{

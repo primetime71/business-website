@@ -76,7 +76,8 @@
   
   }
   .btn-primary:hover,.btn-secondary:hover{
-    background: linear-gradient(90deg, rgba(234, 204, 248, 0.45) 0%, rgba(102, 84, 241, 0.43) 100%);
+    /* background: linear-gradient(90deg, rgba(234, 204, 248, 0.45) 0%, rgba(102, 84, 241, 0.43) 100%); */
+    background-color: #FF934F;
     color:var(--text-dark);
     /* background-color: #98ff98; */
     border:1px solid var(--text-dark);
@@ -92,6 +93,7 @@
   /* navbar */
   .navbar{
     background-color: var(--bg-color);
+
     /* border-bottom: 1px solid var(--text-dark); */
     font-family: 'Montserrat', sans-serif;
     position: sticky;
