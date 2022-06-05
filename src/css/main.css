@@ -13,6 +13,7 @@
   --text-dark: #2c302e;
   --nav-hover: #e2e2e2;
   --nav-focus: #ffffff;
+  --card-body: #eaeaea;
 }
 
 * {
@@ -65,10 +66,16 @@ body {
 }
 .btn-primary:hover,
 .btn-secondary:hover {
-  /* background: linear-gradient(90deg, rgba(234, 204, 248, 0.45) 0%, rgba(102, 84, 241, 0.43) 100%); */
   background-color: var(--primary-bg-3);
   color: var(--text-dark);
-  /* background-color: #98ff98; */
+
+  border: 1px solid var(--text-dark);
+}
+.btn-primary:focus,
+.btn-secondary:focus {
+  box-shadow: none;
+  background-color: var(--primary-bg-3);
+  color: var(--text-dark);
   border: 1px solid var(--text-dark);
 }
 
@@ -126,7 +133,7 @@ body {
 }
 .fa-bars {
   font-size: 1.2em;
-  color: #050404;
+  color: var(--text-dark);
 }
 
 /* navbar */
@@ -311,7 +318,7 @@ footer {
   box-shadow: 0px 1px 5px black;
 }
 .to-top:hover {
-  color: rgba(102, 84, 241);
+  color: var(--primary-bg-3);
 }
 .to-top.active {
   opacity: 1;
@@ -320,9 +327,9 @@ footer {
 }
 
 .socials-icon:hover {
-  scale: 1.25;
+  scale: 1.5;
   transition: ease-in 0.2s;
-  color: rgba(102, 84, 241);
+  color: var(--primary-bg-3);
 }
 .contact-icons {
   height: 2em;

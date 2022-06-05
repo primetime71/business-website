@@ -1,3 +1,7 @@
+.drop-shadow {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
 /* section-1 */
 
 .sp-link {
@@ -35,8 +39,18 @@ color:var(--text-dark);
 /* card styles */
 .card-body {
   color: #050404;
-  background-color: #eaeaea;
+  background-color: var(--card-body);
   /* background-color: #FF934F; */
+}
+.card-text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.1em;
+}
+.card-title {
+  font-size: 3.5em;
+  font-family: "Playfair Display", serif;
+  font-weight: 300;
+  color: var(--text-dark);
 }
 
 /* card-styles */
