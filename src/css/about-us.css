@@ -4,23 +4,17 @@
     /* min-height: 100vh; 
 } 
 */
-body{
-   
+
+.au-brands {
+  min-height: 100%;
+  height: auto;
 }
 
-.au-brands{
-    min-height: 100%;
-    height: auto;
-    
+.au-1 {
+  min-height: 92vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* background: radial-gradient(50% 50% at 50% 50%, rgba(105, 234, 203, 0.38) 0%, rgba(234, 204, 248, 0.54) 71.73%, rgba(102, 84, 241, 0.43) 100%); */
+  /* background-color: #FF934F; */
 }
-
-
-.au-1{
-    min-height: 92vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    /* background: radial-gradient(50% 50% at 50% 50%, rgba(105, 234, 203, 0.38) 0%, rgba(234, 204, 248, 0.54) 71.73%, rgba(102, 84, 241, 0.43) 100%); */
-    /* background-color: #FF934F; */
-}
-

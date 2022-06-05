@@ -1,25 +1,28 @@
 /* section-1 */
 
-.sp-link{
-    border-top: 1px solid var(--text-dark);
-    border-bottom: 1px solid var(--text-dark);
+.sp-link {
+  border-top: 1px solid var(--text-dark);
+  border-bottom: 1px solid var(--text-dark);
 }
-.sp-items-container{
-    /* background: linear-gradient(90deg, rgba(234, 204, 248, 0.45) 0%, rgba(102, 84, 241, 0.43) 100%); */
-    background-color: #F69431;
-    background-color: #FF6B35;
-    background-color: #FF934F;
-
+.sp-items-container {
+  /* background: linear-gradient(90deg, rgba(234, 204, 248, 0.45) 0%, rgba(102, 84, 241, 0.43) 100%); */
+  background-color: var(--primary-bg-3);
 }
-.sp-items-container .nav-link{
+.sp-items-container .nav-link {
+  width: fit-content;
+  height: 100%;
+  text-align: center;
+  vertical-align: middle;
+  letter-spacing: 1.25px;
+  font-weight: 400;
+}
 
-    width:fit-content;
-    height:100%;
-    text-align: center;
-    vertical-align: middle;
-    letter-spacing: 1.25px;
-    font-weight: 400;
-    }
+.sp-items-container .nav-link:hover {
+  color: var(--text-dark);
+}
+.sp-items-container .nav-link:focus {
+  color: var(--text-dark);
+}
 /* .service-link {
 color:var(--text-dark);
 } */
@@ -30,62 +33,58 @@ color:var(--text-dark);
 /* section-1 */
 
 /* card styles */
-.card-body{
-    color:#050404;
-    background-color: #EAEAEA;   
-    /* background-color: #FF934F; */
-S
+.card-body {
+  color: #050404;
+  background-color: #eaeaea;
+  /* background-color: #FF934F; */
 }
 
 /* card-styles */
 
-
 /* services */
 
-
-
-
-#sp-service-1,#sp-service-2,#sp-service-3{
-    /* color:var(--text-dark);
+#sp-service-1,
+#sp-service-2,
+#sp-service-3 {
+  /* color:var(--text-dark);
     background-color: var(--primary-bg-1);  */
-    min-height: 100vh;
-    border-bottom: 1px solid var(--text-dark);
+  min-height: 100vh;
+  border-bottom: 1px solid var(--text-dark);
 }
-
 
 /* services --end */
 
-#sp-section-5{
-   background-color: var(--primary-bg);
+#sp-section-5 {
+  background-color: var(--primary-bg);
 }
 
 /* scroll-to-top-button */
-.to-top{
-    background-color:white;
-    color: black;
-    border: none;
-    position: fixed;
-    bottom:16px;
-    right: 32px;
-    height:50px;
-    width: 50px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 18px;
-    text-decoration: none;
-    padding:5px;
-    z-index: 2;
-    opacity: 0;
-    pointer-events: none;
-    transition: ease-in .4s;
-    box-shadow: 0px 1px 5px black;
+.to-top {
+  background-color: white;
+  color: black;
+  border: none;
+  position: fixed;
+  bottom: 16px;
+  right: 32px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  text-decoration: none;
+  padding: 5px;
+  z-index: 2;
+  opacity: 0;
+  pointer-events: none;
+  transition: ease-in 0.4s;
+  box-shadow: 0px 1px 5px black;
 }
 
-.to-top.active{
-    opacity: 1;
-    pointer-events: auto;
-    bottom:32px;
+.to-top.active {
+  opacity: 1;
+  pointer-events: auto;
+  bottom: 32px;
 }
 /* scroll-to-top-button */
