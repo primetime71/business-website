@@ -14,14 +14,14 @@
   text-align: center;
   vertical-align: middle;
   letter-spacing: 1.25px;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 .sp-items-container .nav-link:hover {
-  color: var(--text-dark);
+  color: var(--nav-hover);
 }
 .sp-items-container .nav-link:focus {
-  color: var(--text-dark);
+  color: var(--nav-focus);
 }
 /* .service-link {
 color:var(--text-dark);

@@ -11,6 +11,8 @@
   --primary-bg-3: #ff934f;
   --primary-bg-4: #283845;
   --text-dark: #2c302e;
+  --nav-hover: #e2e2e2;
+  --nav-focus: #ffffff;
 }
 
 * {
