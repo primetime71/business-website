@@ -1,19 +1,18 @@
-:root{
-    /* --bg-color:#202C39;
+:root {
+  /* --bg-color:#202C39;
     --bg-color:#E1E0DE; */
-    --bg-color:#F3F4F5;
-    --text-light:#EAEAEA;
-    --dark:#050404;
-    --primary-bg-1:#B8B08D;
-    --primary-bg-2:#F2D492;
-    --primary-bg-3:#FF674D;
-    --primary-bg-4:#283845;
-    --text-dark:#2C302E;
-    
-}  
+  --bg-color: #f3f4f5;
+  --text-light: #eaeaea;
+  --dark: #050404;
+  --primary-bg-1: #b8b08d;
+  --primary-bg-2: #f2d492;
+  --primary-bg-3: #ff934f;
+  --primary-bg-4: #283845;
+  --text-dark: #2c302e;
+}
 
-.swal-height{
-    height: 600px;
+.swal-height {
+  height: 600px;
 }
 /* body{
     background-color: #202C39;
@@ -22,16 +21,21 @@
     background-color: #F2D492;
     color: #050404;
 } */
-label{
-    font-family: 'Montserrat', sans-serif;
+label {
+  font-family: "Montserrat", sans-serif;
 }
 /* .navbar,.nav-link,.navbar-brand{
     background-color: #202C39;
     color:azure;
 } */
 
-.form-control{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
+.form-control {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
 }
 
+.details-border {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
