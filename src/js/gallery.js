@@ -56,3 +56,5 @@ function showItem5() {
     imgArr[i].style.display = "none";
   }
 }
+
+//modal view

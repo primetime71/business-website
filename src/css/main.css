@@ -45,6 +45,12 @@ body {
   height: 45px;
   transition: all 0.3s ease-out;
 }
+@media (max-width: 575.98px) {
+  .btn {
+    font-size: 0.9em;
+    width: 140px;
+  }
+}
 
 .btn-primary {
   background-color: var(--text-light);
