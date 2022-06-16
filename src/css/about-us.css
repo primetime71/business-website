@@ -10,6 +10,15 @@
   height: auto;
 }
 
+.brand-logo {
+  opacity: 0.5;
+  transition: ease-out 0.5s;
+}
+.brand-logo:hover {
+  opacity: 1;
+  transition: ease-in 0.5s;
+}
+
 .au-1 {
   min-height: 92vh;
   display: flex;
