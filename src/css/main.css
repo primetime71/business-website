@@ -251,13 +251,17 @@ footer {
   color: var(--text-light);
 }
 
+a[href$=".html"]:hover {
+  color: var(--primary-bg-3) !important;
+}
+
 .footer-2 {
   background-color: var(--dark);
 
   color: var(--text-light);
 }
 
-.footer-2 a {
+.footer-2 {
   color: var(--text-light);
   text-decoration: none;
 }
@@ -336,7 +340,7 @@ footer {
 
 .socials-icon:hover {
   scale: 1.5;
-  transition: ease-in 0.2s;
+  transition: ease-out 0.5s;
   color: var(--primary-bg-3);
 }
 .contact-icons {
