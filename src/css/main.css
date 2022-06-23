@@ -29,6 +29,7 @@ body {
   background-color: var(--bg-color);
   color: var(--text-dark);
   overflow-x: hidden;
+  overflow: hidden;
 }
 
 /* button */

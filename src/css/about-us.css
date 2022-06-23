@@ -11,7 +11,7 @@
 }
 
 .brand-logo {
-  opacity: 0.5;
+  opacity: 0.8;
   transition: ease-out 0.5s;
 }
 .brand-logo:hover {
