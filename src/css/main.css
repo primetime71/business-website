@@ -21,7 +21,7 @@
 * {
   box-sizing: border-box;
   padding: 0;
-  margin: 0;
+  margin: 0 !important;
 }
 
 body {
@@ -29,7 +29,6 @@ body {
   background-color: var(--bg-color);
   color: var(--text-dark);
   overflow-x: hidden;
-  overflow: hidden;
 }
 
 /* button */
@@ -103,7 +102,6 @@ body {
   font-size: 0.9em;
   font-weight: 400;
   min-height: 64px;
-
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
