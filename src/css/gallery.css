@@ -81,7 +81,7 @@ object-fit: cover;
   transition: none;
 }
 #gallery-2 .nav-link:focus {
-  color: var(--nav-focus);
+  color: var(--text-dark);
 }
 
 #gallery-3 .img-fluid {
@@ -94,6 +94,7 @@ object-fit: cover;
 #gallery-3 .img-fluid:hover {
   scale: 1.05;
   transition: all 0.3s linear;
+  cursor: pointer;
 }
 
 @media (max-width: 576px) {
